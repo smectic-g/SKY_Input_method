@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+	<title>SKY♯配列の統計</title>
+	<link rel="Stylesheet" href="../default.css" type="text/css" />
+</head>
+<body>
+<p>統計といっても，純粋な日本語なら人差し指から中指に負担が移動して，
+拗音の分同指異鍵がなくなっているだけだというのに気づくのに，
+半日かかる自分っていったい．しかし，自分で言うのもなんだし，
+意識とは微妙に乖離があるにせよ．
+統計を取ると恐ろしく改善効果の薄い拡張だことよ．</p>
+
+<p>これを読む人への注意ですが，SKYの打鍵データは
+元の日本語のひらがなデータが文節ごとにスペースで区切られていると期待して(できるかどうかは微妙ですが)，
+スペースをまたぐ連母音その他は省打鍵キーで処理しないようにした時の打鍵数です．
+従ってmassenganeaさんのページの結果とは異なります．</p>
+
+<p>あと，数字が微妙にコンシステントではないので，いつか直すかもしれません．</p>
+
+<h3>日本国憲法前文</h3>
+<p>個々の打鍵のデータ</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup>
+	<colgroup span="4"></colgroup><colgroup span="4"></colgroup><colgroup span="4"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>左</th>
+		<th>右</th>
+		<th>シフト</th>
+		<th>左人</th>
+		<th>左中</th>
+		<th>左薬</th>
+		<th>左小</th>
+		<th>右人</th>
+		<th>右中</th>
+		<th>右薬</th>
+		<th>右小</th>
+		<th>最下</th>
+		<th>2段め</th>
+		<th>3段め</th>
+		<th>最上</th>
+	</tr></thead>
+	<tbody><tr>
+		<td>ローマ字</td>
+		<td>1475</td>
+		<td>530</td>
+		<td>945</td>
+		<td>0</td>
+		<td>164</td>
+		<td>111</td>
+		<td>125</td>
+		<td>130</td>
+		<td>409</td>
+		<td>316</td>
+		<td>215</td>
+		<td>5</td>
+		<td>228</td>
+		<td>444</td>
+		<td>803</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>1330</td>
+		<td>680</td>
+		<td>650</td>
+		<td>0</td>
+		<td>267</td>
+		<td>175</td>
+		<td>125</td>
+		<td>113</td>
+		<td>232</td>
+		<td>206</td>
+		<td>115</td>
+		<td>97</td>
+		<td>119</td>
+		<td>911</td>
+		<td>300</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>1330</td>
+		<td>680</td>
+		<td>650</td>
+		<td>0</td>
+		<td>257</td>
+		<td>185</td>
+		<td>125</td>
+		<td>113</td>
+		<td>232</td>
+		<td>206</td>
+		<td>115</td>
+		<td>97</td>
+		<td>119</td>
+		<td>911</td>
+		<td>300</td>
+		<td>0</td>
+	</tr></tbody>
+</table>
+
+<p>次に，2指の連続の結果</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup><colgroup span="3"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>交互打鍵（率）</th>
+		<th>左左</th>
+		<th>右右</th>
+		<th>同指異鍵</th>
+		<th>同手跳躍</th>
+		<th>左手縦連</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>ローマ字</td>
+		<td>1475</td>
+		<td>662(44.9)</td>
+		<td>199</td>
+		<td>613</td>
+		<td>96</td>
+		<td>220</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>1330</td>
+		<td>1217(91.5)</td>
+		<td>71</td>
+		<td>41</td>
+		<td>13</td>
+		<td>5</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>1330</td>
+		<td>1217(91.5)</td>
+		<td>71</td>
+		<td>41</td>
+		<td>4</td>
+		<td>5</td>
+		<td>0</td>
+	</tr>
+	</tbody>
+</table>
+<p>SKYにおける各キーの出現頻度は</p>
+<table rules="all">
+<th></th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th><th>07</th><th>08</th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>合計</th></tr>
+<tr><th>E段</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+<tr><th>D段</th><td>35</td><td>37</td><td>64</td><td>30</td><td>44</td><td>7</td><td>16</td><td>35</td><td>9</td><td>23</td><td>0</td><td>0</td><td></td><td>300</td>
+</tr>
+<tr><th>C段</th><td class="home">73</td><td class="home">75</td><td class="home">88</td><td class="home">136</td><td>38</td><td>103</td><td class="home">100</td><td class="home">164</td><td class="home">88</td><td class="home">46</td><td>0</td><td>0</td><td></td><td>911</td>
+</tr>
+<tr><th>B段</th><td>5</td><td>13</td><td>23</td><td>16</td><td>3</td><td>0</td><td>6</td><td>7</td><td>18</td><td>28</td><td>0</td><td></td><td></td><td>119</td>
+</tr>
+<tr><th>合計</th><td>113</td><td>125</td><td>175</td><td colspan="2">267</td><td colspan="2">232</td><td>206</td><td>115</td><td colspan="4">97</td><td>1330</td>
+</tr>
+</table>
+
+
+<p>SKY♯における各キーの出現頻度は</p>
+
+<table rules="all">
+<th></th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th><th>07</th><th>08</th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>合計</th></tr>
+<tr><th>E段</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+<tr><th>D段</th><td>35</td><td>37</td><td>64</td><td>30</td><td>44</td><td>7</td><td>16</td><td>35</td><td>9</td><td>23</td><td>0</td><td>0</td><td></td><td>300</td>
+</tr>
+<tr><th>C段</th><td class="home">73</td><td class="home">75</td><td class="home">98</td><td class="home">136</td><td>28</td><td>103</td><td class="home">100</td><td class="home">164</td><td class="home">88</td><td class="home">46</td><td>0</td><td>0</td><td></td><td>911</td>
+</tr>
+<tr><th>B段</th><td>5</td><td>13</td><td>23</td><td>16</td><td>3</td><td>0</td><td>6</td><td>7</td><td>18</td><td>28</td><td>0</td><td></td><td></td><td>119</td>
+</tr>
+<tr><th>合計</th><td>113</td><td>125</td><td>185</td><td colspan="2">257</td><td colspan="2">232</td><td>206</td><td>115</td><td colspan="4">97</td><td>1330</td>
+</tr>
+</table>
+
+<h3>めくらぶどうと虹</h3>
+<p>個々の打鍵のデータ</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup>
+	<colgroup span="4"></colgroup><colgroup span="4"></colgroup><colgroup span="4"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>左</th>
+		<th>右</th>
+		<th>シフト</th>
+		<th>左人</th>
+		<th>左中</th>
+		<th>左薬</th>
+		<th>左小</th>
+		<th>右人</th>
+		<th>右中</th>
+		<th>右薬</th>
+		<th>右小</th>
+		<th>最下</th>
+		<th>2段め</th>
+		<th>3段め</th>
+		<th>最上</th>
+	</tr></thead>
+	<tbody><tr>
+		<td>ローマ字</td>
+		<td>4864</td>
+		<td>2192</td>
+		<td>2672</td>
+		<td>0</td>
+		<td>640</td>
+		<td>384</td>
+		<td>344</td>
+		<td>824</td>
+		<td>1133</td>
+		<td>885</td>
+		<td>603</td>
+		<td>51</td>
+		<td>875</td>
+		<td>1704</td>
+		<td>2284</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>4692</td>
+		<td>2265</td>
+		<td>2427</td>
+		<td>0</td>
+		<td>826</td>
+		<td>525</td>
+		<td>488</td>
+		<td>426</td>
+		<td>1062</td>
+		<td>518</td>
+		<td>543</td>
+		<td>304</td>
+		<td>339</td>
+		<td>3380</td>
+		<td>973</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>4693</td>
+		<td>2265</td>
+		<td>2427</td>
+		<td>0</td>
+		<td>816</td>
+		<td>535</td>
+		<td>488</td>
+		<td>426</td>
+		<td>1062</td>
+		<td>518</td>
+		<td>543</td>
+		<td>304</td>
+		<td>339</td>
+		<td>3380</td>
+		<td>973</td>
+		<td>0</td>
+	</tr></tbody>
+</table>
+
+<p>次に，2指の連続の結果</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup><colgroup span="3"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>交互打鍵（率）</th>
+		<th>左左</th>
+		<th>右右</th>
+		<th>同指異鍵</th>
+		<th>同手跳躍</th>
+		<th>左手縦連</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>ローマ字</td>
+		<td>4864</td>
+		<td>2240(46.1)</td>
+		<td>1072</td>
+		<td>1551</td>
+		<td>317</td>
+		<td>746</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>4692</td>
+		<td>4209(89.7)</td>
+		<td>160</td>
+		<td>322</td>
+		<td>28</td>
+		<td>10</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>4692</td>
+		<td>4209(89.7)</td>
+		<td>160</td>
+		<td>322</td>
+		<td>22</td>
+		<td>10</td>
+		<td>0</td>
+	</tr>
+	</tbody>
+</table>
+<p>SKYにおける各キーの打鍵データは</p>
+<table rules="all">
+<th></th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th><th>07</th><th>08</th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>合計</th></tr>
+<tr><th>E段</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+<tr><th>D段</th><td>114</td><td>73</td><td>213</td><td>230</td><td>141</td><td>1</td><td>42</td><td>55</td><td>85</td><td>3</td><td>0</td><td>16</td><td></td><td>973</td>
+</tr>
+<tr><th>C段</th><td class="home">294</td><td class="home">306</td><td class="home">271</td><td class="home">268</td><td>73</td><td>254</td><td class="home">744</td><td class="home">451</td><td class="home">450</td><td class="home">252</td><td>1</td><td>16</td><td></td><td>3380</td>
+</tr>
+<tr><th>B段</th><td>18</td><td>109</td><td>41</td><td>61</td><td>53</td><td>3</td><td>18</td><td>12</td><td>8</td><td>16</td><td>0</td><td></td><td></td><td>339</td>
+</tr>
+<tr><th>合計</th><td>426</td><td>488</td><td>525</td><td colspan="2">826</td><td colspan="2">1062</td><td>518</td><td>543</td><td colspan="4">304</td><td>4692</td>
+</tr>
+</table>
+
+<p>SKY♯における各キーの打鍵データは</p>
+<table rules="all">
+<th></th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th><th>07</th><th>08</th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>合計</th></tr>
+<tr><th>E段</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+<tr><th>D段</th><td>114</td><td>73</td><td>213</td><td>230</td><td>141</td><td>1</td><td>42</td><td>55</td><td>85</td><td>3</td><td>0</td><td>16</td><td></td><td>973</td>
+</tr>
+<tr><th>C段</th><td class="home">294</td><td class="home">306</td><td class="home">281</td><td class="home">268</td><td>63</td><td>254</td><td class="home">744</td><td class="home">451</td><td class="home">450</td><td class="home">252</td><td>1</td><td>16</td><td></td><td>3380</td>
+</tr>
+<tr><th>B段</th><td>18</td><td>109</td><td>41</td><td>61</td><td>53</td><td>3</td><td>18</td><td>12</td><td>8</td><td>16</td><td>0</td><td></td><td></td><td>339</td>
+</tr>
+<tr><th>合計</th><td>426</td><td>488</td><td>535</td><td colspan="2">816</td><td colspan="2">1062</td><td>518</td><td>543</td><td colspan="4">304</td><td>4692</td>
+</tr>
+</table>
+
+<h3>緋のエチュード</h3>
+<p>個々の打鍵のデータ</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup>
+	<colgroup span="4"></colgroup><colgroup span="4"></colgroup><colgroup span="4"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>左</th>
+		<th>右</th>
+		<th>シフト</th>
+		<th>左人</th>
+		<th>左中</th>
+		<th>左薬</th>
+		<th>左小</th>
+		<th>右人</th>
+		<th>右中</th>
+		<th>右薬</th>
+		<th>右小</th>
+		<th>最下</th>
+		<th>2段め</th>
+		<th>3段め</th>
+		<th>最上</th>
+	</tr></thead>
+	<tbody><tr>
+		<td>ローマ字</td>
+		<td>12650</td>
+		<td>5605</td>
+		<td>7045</td>
+		<td>0</td>
+		<td>1840</td>
+		<td>1062</td>
+		<td>866</td>
+		<td>1837</td>
+		<td>2989</td>
+		<td>2283</td>
+		<td>1532</td>
+		<td>241</td>
+		<td>1940</td>
+		<td>4349</td>
+		<td>6307</td>
+		<td>54</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>11794</td>
+		<td>5710</td>
+		<td>6084</td>
+		<td>0</td>
+		<td>2106</td>
+		<td>1255</td>
+		<td>1502</td>
+		<td>847</td>
+		<td>2553</td>
+		<td>1350</td>
+		<td>1186</td>
+		<td>995</td>
+		<td>1177</td>
+		<td>8274</td>
+		<td>2324</td>
+		<td>19</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>11828</td>
+		<td>5775</td>
+		<td>6053</td>
+		<td>0</td>
+		<td>2056</td>
+		<td>1367</td>
+		<td>1497</td>
+		<td>855</td>
+		<td>2545</td>
+		<td>1351</td>
+		<td>1194</td>
+		<td>963</td>
+		<td>1178</td>
+		<td>8343</td>
+		<td>2307</td>
+		<td>0</td>
+	</tr></tbody>
+</table>
+
+<p>次に，2指の連続の結果</p>
+<table rules="groups">
+	<colgroup span="1"></colgroup><colgroup span="4"></colgroup><colgroup span="3"></colgroup>
+	<thead>
+	<tr>
+		<th>方式</th>
+		<th>打鍵数</th>
+		<th>交互打鍵（率）</th>
+		<th>左左</th>
+		<th>右右</th>
+		<th>同指異鍵</th>
+		<th>同手跳躍</th>
+		<th>左手縦連</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>ローマ字</td>
+		<td>12650</td>
+		<td>(46.1)</td>
+		<td>1072</td>
+		<td>1551</td>
+		<td>317</td>
+		<td>746</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY</td>
+		<td>11794</td>
+		<td>10433(88.5)</td>
+		<td>493</td>
+		<td>867</td>
+		<td>147</td>
+		<td>80</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>SKY♯</td>
+		<td>11828</td>
+		<td>10505(88.8)</td>
+		<td>522</td>
+		<td>800</td>
+		<td>101</td>
+		<td>37</td>
+		<td>0</td>
+	</tr>
+	</tbody>
+</table>
+
+<p>SKYにおける各キーの打鍵データは</p>
+<TABLE BORDER="1">
+<TH></TH><TH>01</TH><TH>02</TH><TH>03</TH><TH>04</TH><TH>05</TH><TH>06</TH><TH>07</TH><TH>08</TH><TH>09</TH><TH>10</TH><TH>11</TH><TH>12</TH><TH>13</TH><TH>合計</TH></TR>
+<TR><TH>E段</TH><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>19</TD><TD>0</TD><TD>19</TD>
+</TR>
+<TR><TH>D段</TH><TD>203</TD><TD>224</TD><TD>487</TD><TD>324</TD><TD>316</TD><TD>38</TD><TD>152</TD><TD>220</TD><TD>182</TD><TD>80</TD><TD>19</TD><TD>75</TD><TD></TD><TD>2320</TD>
+</TR>
+<TR><TH>C段</TH><TD class="home">617</TD><TD class="home">967</TD><TD class="home">623</TD><TD class="home">844</TD><TD>280</TD><TD>713</TD><TD class="home">1519</TD><TD class="home">1088</TD><TD class="home">937</TD><TD class="home">555</TD><TD>54</TD><TD>77</TD><TD></TD><TD>8274</TD>
+</TR>
+<TR><TH>B段</TH><TD>27</TD><TD>311</TD><TD>145</TD><TD>233</TD><TD>109</TD><TD>32</TD><TD>99</TD><TD>42</TD><TD>67</TD><TD>104</TD><TD>8</TD><TD></TD><TD></TD><TD>1177</TD>
+</TR>
+<TR><TH>合計</TH><TD>847</TD><TD>1502</TD><TD>1255</TD><TD colspan="2">2106</TD><TD colspan="2">2553</TD><TD>1350</TD><TD>1186</TD><TD colspan="4">991</TD><TD>11790</TD>
+</TR>
+</TABLE>
+
+<p>SKY♯における各キーの打鍵データは</p>
+<table rules="all">
+<th></th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th><th>07</th><th>08</th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>合計</th></tr>
+<tr><th>E段</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+<tr><th>D段</th><td>203</td><td>223</td><td>487</td><td>324</td><td>315</td><td>38</td><td>152</td><td>220</td><td>190</td><td>80</td><td>0</td><td>75</td><td></td><td>2307</td>
+</tr>
+<tr><th>C段</th><td class="home">625</td><td class="home">962</td><td class="home">735</td><td class="home">856</td><td>219</td><td>705</td><td class="home">1519</td><td class="home">1089</td><td class="home">937</td><td class="home">555</td><td>64</td><td>77</td><td></td><td>8343</td>
+</tr>
+<tr><th>B段</th><td>27</td><td>312</td><td>145</td><td>233</td><td>109</td><td>32</td><td>99</td><td>42</td><td>67</td><td>104</td><td>8</td><td></td><td></td><td>1178</td>
+</tr>
+<tr><th>合計</th><td>855</td><td>1497</td><td>1367</td><td colspan="2">2056</td><td colspan="2">2545</td><td>1351</td><td>1194</td><td colspan="4">963</td><td>11828</td>
+</tr>
+</table>
+
+<hr />
+<address>
+最終更新日 : 2004-02-07<br />
+<a href="http://homepage2.nifty.com/Khwarizmi/index.html">トップページにもどる</a> <br />
+作成者 : <a href="mailto:gmasanao@nifty.com">Khwarizmi</a>
+</address>
+</body>
+</html>
